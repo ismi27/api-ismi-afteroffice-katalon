@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Register failed</name>
+   <name>Get Users</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>8148b322-0e5b-4038-949d-df67fd9c1ced</testCaseGuid>
+   <testCaseGuid>8b9108e6-9a2f-40be-b5f9-3dca2df371ed</testCaseGuid>
 </TestCaseEntity>

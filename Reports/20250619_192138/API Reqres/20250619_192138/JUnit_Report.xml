@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="API Reqres" time="2.018" tests="1" failures="0" errors="0">
+   <testsuite name="API Reqres" tests="1" failures="0" errors="0" time="2.018" skipped="0" timestamp="19-06-2025T19:21:41" hostname="mac - localhost" id="Test Suites/API Reqres">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/mac/git/api-ismi-afteroffice-katalon/Reports/20250619_192138/API Reqres/20250619_192138"/>
+         <property name="logFiles" value="/Users/mac/git/api-ismi-afteroffice-katalon/Reports/20250619_192138/API Reqres/20250619_192138/execution0.log, /Users/mac/git/api-ismi-afteroffice-katalon/Reports/20250619_192138/API Reqres/20250619_192138/console0.log"/>
+         <property name="attachments" value=""/>
+         <property name="userFullName" value="Ismi Rizki Sopiyanti"/>
+         <property name="hostName" value="mac - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="projectName" value="api-ismi-afteroffice-katalon"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.2.0.0"/>
+      </properties>
+      <testcase name="Test Cases/Register Success" time="1.694" classname="Test Cases/Register Success" status="PASSED">
+         <system-out><![CDATA[19-06-2025T19:21:42 - [TEST_CASE][PASSED] - Test Cases/Register Success: Test Cases/Register Success
+
+19-06-2025T19:21:42 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("POST_Register_Success")): Send request successfully
+
+19-06-2025T19:21:43 - [MESSAGE][INFO] - HAR: /Users/mac/git/api-ismi-afteroffice-katalon/Reports/20250619_192138/API Reqres/20250619_192138/requests/main/POST_Regi...Success_0.har
+
+19-06-2025T19:21:43 - [MESSAGE][PASSED] - Send request successfully
+
+19-06-2025T19:21:43 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+19-06-2025T19:21:43 - [MESSAGE][PASSED] - Verify response status code successfully
+
+19-06-2025T19:21:43 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "token", "QpwL5tke4Pnpja7X4"): Verify element property value successfully
+
+19-06-2025T19:21:43 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-06-2025T19:21:41 - [TEST_SUITE][PASSED] - API Reqres: Test Cases/Register Success]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

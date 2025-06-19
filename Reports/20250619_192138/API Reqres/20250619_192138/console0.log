@@ -1,0 +1,17 @@
+2025-06-19 19:21:41.801 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/API Reqres
+2025-06-19 19:21:41.882 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Ismi Rizki Sopiyanti
+2025-06-19 19:21:41.883 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = api-ismi-afteroffice-katalon
+2025-06-19 19:21:41.886 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = mac - localhost
+2025-06-19 19:21:41.886 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2025-06-19 19:21:41.886 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 127.0.0.1
+2025-06-19 19:21:41.887 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.0.0
+2025-06-19 19:21:42.193 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-19 19:21:42.194 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Register Success
+2025-06-19 19:21:42.496 DEBUG testcase.Register Success                - 1: response = sendRequest(findTestObject("POST_Register_Success"))
+2025-06-19 19:21:43.796 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/mac/git/api-ismi-afteroffice-katalon/Reports/20250619_192138/API Reqres/20250619_192138/requests/main/POST_Regi...Success_0.har
+2025-06-19 19:21:43.839 DEBUG testcase.Register Success                - 2: verifyResponseStatusCode(response, 200)
+2025-06-19 19:21:43.850 DEBUG testcase.Register Success                - 3: verifyElementPropertyValue(response, "token", "QpwL5tke4Pnpja7X4")
+2025-06-19 19:21:43.887 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Register Success
+2025-06-19 19:21:43.920 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-06-19 19:21:43.920 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/API Reqres
+2025-06-19 19:21:43.920 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

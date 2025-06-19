@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>API Reqres</name>
+   <name>API Users</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,12 +10,19 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>eaca08f6-6746-4104-ba28-8fc4e1883f4a</testSuiteGuid>
+   <testSuiteGuid>a397090e-eaa2-49b0-96d4-c30233ec6753</testSuiteGuid>
    <testCaseLink>
-      <guid>cbf0d2a8-2ff0-4141-937a-fd693958d102</guid>
+      <guid>9927a8cd-0aff-4335-9ddd-448ff2eea7ae</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Register Success</testCaseId>
+      <testCaseId>Test Cases/Delete Users</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0b034806-fa33-4656-9bbd-6f8045fc4612</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Get Users</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

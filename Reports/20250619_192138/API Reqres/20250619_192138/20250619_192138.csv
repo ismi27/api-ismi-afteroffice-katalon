@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+API Reqres,,,,19-06-2025 19:21:41,19-06-2025 19:21:43,2.050s,PASSED
+,,,,,,,
+Test Cases/Register Success,,,,19-06-2025 19:21:42,19-06-2025 19:21:43,1.694s,PASSED
+"response = sendRequest(findTestObject(""POST_Register_Success""))",,,,19-06-2025 19:21:42,19-06-2025 19:21:43,1.342s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,19-06-2025 19:21:43,19-06-2025 19:21:43,0.010s,PASSED
+"verifyElementPropertyValue(response, ""token"", ""QpwL5tke4Pnpja7X4"")",,,,19-06-2025 19:21:43,19-06-2025 19:21:43,0.037s,PASSED
