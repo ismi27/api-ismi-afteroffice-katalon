@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+API Register,,,,19-06-2025 20:25:54,19-06-2025 20:25:56,2.557s,PASSED
+,,,,,,,
+Test Cases/Register Failed,,,,19-06-2025 20:25:54,19-06-2025 20:25:56,1.665s,PASSED
+"response = sendRequest(findTestObject(""POST_Register_Failed""))",,,,19-06-2025 20:25:54,19-06-2025 20:25:56,1.330s,PASSED
+"verifyResponseStatusCode(response, 400)",,,,19-06-2025 20:25:56,19-06-2025 20:25:56,0.011s,PASSED
+"verifyElementPropertyValue(response, ""error"", ""Missing password"")",,,,19-06-2025 20:25:56,19-06-2025 20:25:56,0.031s,PASSED
+,,,,,,,
+Test Cases/Register Success,,,,19-06-2025 20:25:56,19-06-2025 20:25:56,0.602s,PASSED
+"response = sendRequest(findTestObject(""POST_Register_Success""))",,,,19-06-2025 20:25:56,19-06-2025 20:25:56,0.559s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,19-06-2025 20:25:56,19-06-2025 20:25:56,0.003s,PASSED
+"verifyElementPropertyValue(response, ""token"", ""QpwL5tke4Pnpja7X4"")",,,,19-06-2025 20:25:56,19-06-2025 20:25:56,0.012s,PASSED

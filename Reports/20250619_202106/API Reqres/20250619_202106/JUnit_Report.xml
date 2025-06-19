@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="API Reqres" time="5.937" tests="6" failures="0" errors="0">
+   <testsuite name="API Reqres" tests="6" failures="0" errors="0" time="5.937" skipped="0" timestamp="19-06-2025T20:21:11" hostname="mac - localhost" id="Test Suites/API Reqres">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/mac/git/api-ismi-afteroffice-katalon/Reports/20250619_202106/API Reqres/20250619_202106"/>
+         <property name="logFiles" value="/Users/mac/git/api-ismi-afteroffice-katalon/Reports/20250619_202106/API Reqres/20250619_202106/execution0.log, /Users/mac/git/api-ismi-afteroffice-katalon/Reports/20250619_202106/API Reqres/20250619_202106/console0.log"/>
+         <property name="attachments" value=""/>
+         <property name="userFullName" value="Ismi Rizki Sopiyanti"/>
+         <property name="hostName" value="mac - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="projectName" value="api-ismi-afteroffice-katalon"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.2.0.0"/>
+      </properties>
+      <testcase name="Test Cases/Register Success" time="2.03" classname="Test Cases/Register Success" status="PASSED">
+         <system-out><![CDATA[19-06-2025T20:21:11 - [TEST_CASE][PASSED] - Test Cases/Register Success: Test Cases/Register Success
+
+19-06-2025T20:21:11 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("POST_Register_Success")): Send request successfully
+
+19-06-2025T20:21:13 - [MESSAGE][INFO] - HAR: /Users/mac/git/api-ismi-afteroffice-katalon/Reports/20250619_202106/API Reqres/20250619_202106/requests/main/POST_Regi...Success_0.har
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Send request successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify response status code successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "token", "QpwL5tke4Pnpja7X4"): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Get Users" time="0.666" classname="Test Cases/Get Users" status="PASSED">
+         <system-out><![CDATA[19-06-2025T20:21:13 - [TEST_CASE][PASSED] - Test Cases/Get Users: Test Cases/Get Users
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("GET_Users")): Send request successfully
+
+19-06-2025T20:21:13 - [MESSAGE][INFO] - HAR: /Users/mac/git/api-ismi-afteroffice-katalon/Reports/20250619_202106/API Reqres/20250619_202106/requests/main/GET_Users_1.har
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Send request successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify response status code successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "page", 2): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "per_page", 6): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "total", 12): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "total_pages", 2): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].id", 7): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].email", "michael.lawson@reqres.in"): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].first_name", "Michael"): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].last_name", "Lawson"): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].avatar", "https://reqres.in/img/faces/7-image.jpg"): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[1].id", 8): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[1].email", "lindsay.ferguson@reqres.in"): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[1].first_name", "Lindsay"): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[1].last_name", "Ferguson"): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[1].avatar", "https://reqres.in/img/faces/8-image.jpg"): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[2].id", 9): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[2].email", "tobias.funke@reqres.in"): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[2].first_name", "Tobias"): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[2].last_name", "Funke"): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[2].avatar", "https://reqres.in/img/faces/9-image.jpg"): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[3].id", 10): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[3].email", "byron.fields@reqres.in"): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[3].first_name", "Byron"): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[3].last_name", "Fields"): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[3].avatar", "https://reqres.in/img/faces/10-image.jpg"): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[4].id", 11): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[4].email", "george.edwards@reqres.in"): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[4].first_name", "George"): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[4].last_name", "Edwards"): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[4].avatar", "https://reqres.in/img/faces/11-image.jpg"): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[5].id", 12): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[5].email", "rachel.howell@reqres.in"): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[5].first_name", "Rachel"): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[5].last_name", "Howell"): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-06-2025T20:21:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[5].avatar", "https://reqres.in/img/faces/12-image.jpg"): Verify element property value successfully
+
+19-06-2025T20:21:13 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Delete Users" time="0.677" classname="Test Cases/Delete Users" status="PASSED">
+         <system-out><![CDATA[19-06-2025T20:21:13 - [TEST_CASE][PASSED] - Test Cases/Delete Users: Test Cases/Delete Users
+
+19-06-2025T20:21:14 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("DELETE_Users")): Send request successfully
+
+19-06-2025T20:21:14 - [MESSAGE][INFO] - HAR: /Users/mac/git/api-ismi-afteroffice-katalon/Reports/20250619_202106/API Reqres/20250619_202106/requests/main/DELETE_Users_2.har
+
+19-06-2025T20:21:14 - [MESSAGE][PASSED] - Send request successfully
+
+19-06-2025T20:21:14 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 204): Verify response status code successfully
+
+19-06-2025T20:21:14 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Failed" time="0.814" classname="Test Cases/Login Failed" status="PASSED">
+         <system-out><![CDATA[19-06-2025T20:21:14 - [TEST_CASE][PASSED] - Test Cases/Login Failed: Test Cases/Login Failed
+
+19-06-2025T20:21:14 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("POST_Login_Failed")): Send request successfully
+
+19-06-2025T20:21:15 - [MESSAGE][INFO] - HAR: /Users/mac/git/api-ismi-afteroffice-katalon/Reports/20250619_202106/API Reqres/20250619_202106/requests/main/POST_Login_Failed_3.har
+
+19-06-2025T20:21:15 - [MESSAGE][PASSED] - Send request successfully
+
+19-06-2025T20:21:15 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 400): Verify response status code successfully
+
+19-06-2025T20:21:15 - [MESSAGE][PASSED] - Verify response status code successfully
+
+19-06-2025T20:21:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "error", "Missing password"): Verify element property value successfully
+
+19-06-2025T20:21:15 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register Failed" time="0.723" classname="Test Cases/Register Failed" status="PASSED">
+         <system-out><![CDATA[19-06-2025T20:21:15 - [TEST_CASE][PASSED] - Test Cases/Register Failed: Test Cases/Register Failed
+
+19-06-2025T20:21:15 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("POST_Register_Failed")): Send request successfully
+
+19-06-2025T20:21:16 - [MESSAGE][INFO] - HAR: /Users/mac/git/api-ismi-afteroffice-katalon/Reports/20250619_202106/API Reqres/20250619_202106/requests/main/POST_Regi..._Failed_4.har
+
+19-06-2025T20:21:16 - [MESSAGE][PASSED] - Send request successfully
+
+19-06-2025T20:21:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 400): Verify response status code successfully
+
+19-06-2025T20:21:16 - [MESSAGE][PASSED] - Verify response status code successfully
+
+19-06-2025T20:21:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "error", "Missing password"): Verify element property value successfully
+
+19-06-2025T20:21:16 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Success" time="0.743" classname="Test Cases/Login Success" status="PASSED">
+         <system-out><![CDATA[19-06-2025T20:21:16 - [TEST_CASE][PASSED] - Test Cases/Login Success: Test Cases/Login Success
+
+19-06-2025T20:21:16 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("POST_Login_Success")): Send request successfully
+
+19-06-2025T20:21:16 - [MESSAGE][INFO] - HAR: /Users/mac/git/api-ismi-afteroffice-katalon/Reports/20250619_202106/API Reqres/20250619_202106/requests/main/POST_Login_Success_5.har
+
+19-06-2025T20:21:16 - [MESSAGE][PASSED] - Send request successfully
+
+19-06-2025T20:21:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+19-06-2025T20:21:16 - [MESSAGE][PASSED] - Verify response status code successfully
+
+19-06-2025T20:21:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "token", "QpwL5tke4Pnpja7X4"): Verify element property value successfully
+
+19-06-2025T20:21:16 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-06-2025T20:21:11 - [TEST_SUITE][PASSED] - API Reqres: Test Cases/Login Success]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

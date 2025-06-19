@@ -1,0 +1,14 @@
+{
+  "id": "Test Suites/API Reqres All",
+  "name": "API Reqres All",
+  "reportFolder": "/Users/mac/git/api-ismi-afteroffice-katalon/Reports/20250619_202537/API Reqres All/20250619_202537",
+  "startTime": 1750339545424,
+  "endTime": 1750339563934,
+  "totalPassedTestCases": "6",
+  "totalErrorTestCases": "0",
+  "totalFailedTestCases": "0",
+  "totalTestCases": "6",
+  "totalIncompleteTestCases": "0",
+  "totalSkippedTestCases": "0",
+  "description": ""
+}

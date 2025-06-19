@@ -1,0 +1,56 @@
+2025-06-19 20:26:00.439 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/API Users
+2025-06-19 20:26:00.512 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Ismi Rizki Sopiyanti
+2025-06-19 20:26:00.512 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = api-ismi-afteroffice-katalon
+2025-06-19 20:26:00.513 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = mac - localhost
+2025-06-19 20:26:00.513 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2025-06-19 20:26:00.513 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 127.0.0.1
+2025-06-19 20:26:00.514 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.0.0
+2025-06-19 20:26:00.751 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-19 20:26:00.751 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Delete Users
+2025-06-19 20:26:01.011 DEBUG testcase.Delete Users                    - 1: response = sendRequest(findTestObject("DELETE_Users"))
+2025-06-19 20:26:02.589 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/mac/git/api-ismi-afteroffice-katalon/Reports/20250619_202537/API Users/20250619_202542/requests/main/DELETE_Users_0.har
+2025-06-19 20:26:02.632 DEBUG testcase.Delete Users                    - 2: verifyResponseStatusCode(response, 204)
+2025-06-19 20:26:02.642 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Delete Users
+2025-06-19 20:26:02.645 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-19 20:26:02.646 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Get Users
+2025-06-19 20:26:02.707 DEBUG testcase.Get Users                       - 1: response = sendRequest(findTestObject("GET_Users"))
+2025-06-19 20:26:02.892 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/mac/git/api-ismi-afteroffice-katalon/Reports/20250619_202537/API Users/20250619_202542/requests/main/GET_Users_1.har
+2025-06-19 20:26:02.895 DEBUG testcase.Get Users                       - 2: verifyResponseStatusCode(response, 200)
+2025-06-19 20:26:02.898 DEBUG testcase.Get Users                       - 3: verifyElementPropertyValue(response, "page", 2)
+2025-06-19 20:26:02.934 DEBUG testcase.Get Users                       - 4: verifyElementPropertyValue(response, "per_page", 6)
+2025-06-19 20:26:02.948 DEBUG testcase.Get Users                       - 5: verifyElementPropertyValue(response, "total", 12)
+2025-06-19 20:26:02.966 DEBUG testcase.Get Users                       - 6: verifyElementPropertyValue(response, "total_pages", 2)
+2025-06-19 20:26:02.978 DEBUG testcase.Get Users                       - 7: verifyElementPropertyValue(response, "data[0].id", 7)
+2025-06-19 20:26:02.995 DEBUG testcase.Get Users                       - 8: verifyElementPropertyValue(response, "data[0].email", "michael.lawson@reqres.in")
+2025-06-19 20:26:03.009 DEBUG testcase.Get Users                       - 9: verifyElementPropertyValue(response, "data[0].first_name", "Michael")
+2025-06-19 20:26:03.022 DEBUG testcase.Get Users                       - 10: verifyElementPropertyValue(response, "data[0].last_name", "Lawson")
+2025-06-19 20:26:03.034 DEBUG testcase.Get Users                       - 11: verifyElementPropertyValue(response, "data[0].avatar", "https://reqres.in/img/faces/7-image.jpg")
+2025-06-19 20:26:03.047 DEBUG testcase.Get Users                       - 12: verifyElementPropertyValue(response, "data[1].id", 8)
+2025-06-19 20:26:03.066 DEBUG testcase.Get Users                       - 13: verifyElementPropertyValue(response, "data[1].email", "lindsay.ferguson@reqres.in")
+2025-06-19 20:26:03.078 DEBUG testcase.Get Users                       - 14: verifyElementPropertyValue(response, "data[1].first_name", "Lindsay")
+2025-06-19 20:26:03.090 DEBUG testcase.Get Users                       - 15: verifyElementPropertyValue(response, "data[1].last_name", "Ferguson")
+2025-06-19 20:26:03.102 DEBUG testcase.Get Users                       - 16: verifyElementPropertyValue(response, "data[1].avatar", "https://reqres.in/img/faces/8-image.jpg")
+2025-06-19 20:26:03.114 DEBUG testcase.Get Users                       - 17: verifyElementPropertyValue(response, "data[2].id", 9)
+2025-06-19 20:26:03.132 DEBUG testcase.Get Users                       - 18: verifyElementPropertyValue(response, "data[2].email", "tobias.funke@reqres.in")
+2025-06-19 20:26:03.145 DEBUG testcase.Get Users                       - 19: verifyElementPropertyValue(response, "data[2].first_name", "Tobias")
+2025-06-19 20:26:03.157 DEBUG testcase.Get Users                       - 20: verifyElementPropertyValue(response, "data[2].last_name", "Funke")
+2025-06-19 20:26:03.168 DEBUG testcase.Get Users                       - 21: verifyElementPropertyValue(response, "data[2].avatar", "https://reqres.in/img/faces/9-image.jpg")
+2025-06-19 20:26:03.179 DEBUG testcase.Get Users                       - 22: verifyElementPropertyValue(response, "data[3].id", 10)
+2025-06-19 20:26:03.192 DEBUG testcase.Get Users                       - 23: verifyElementPropertyValue(response, "data[3].email", "byron.fields@reqres.in")
+2025-06-19 20:26:03.203 DEBUG testcase.Get Users                       - 24: verifyElementPropertyValue(response, "data[3].first_name", "Byron")
+2025-06-19 20:26:03.215 DEBUG testcase.Get Users                       - 25: verifyElementPropertyValue(response, "data[3].last_name", "Fields")
+2025-06-19 20:26:03.227 DEBUG testcase.Get Users                       - 26: verifyElementPropertyValue(response, "data[3].avatar", "https://reqres.in/img/faces/10-image.jpg")
+2025-06-19 20:26:03.238 DEBUG testcase.Get Users                       - 27: verifyElementPropertyValue(response, "data[4].id", 11)
+2025-06-19 20:26:03.251 DEBUG testcase.Get Users                       - 28: verifyElementPropertyValue(response, "data[4].email", "george.edwards@reqres.in")
+2025-06-19 20:26:03.262 DEBUG testcase.Get Users                       - 29: verifyElementPropertyValue(response, "data[4].first_name", "George")
+2025-06-19 20:26:03.276 DEBUG testcase.Get Users                       - 30: verifyElementPropertyValue(response, "data[4].last_name", "Edwards")
+2025-06-19 20:26:03.287 DEBUG testcase.Get Users                       - 31: verifyElementPropertyValue(response, "data[4].avatar", "https://reqres.in/img/faces/11-image.jpg")
+2025-06-19 20:26:03.298 DEBUG testcase.Get Users                       - 32: verifyElementPropertyValue(response, "data[5].id", 12)
+2025-06-19 20:26:03.309 DEBUG testcase.Get Users                       - 33: verifyElementPropertyValue(response, "data[5].email", "rachel.howell@reqres.in")
+2025-06-19 20:26:03.320 DEBUG testcase.Get Users                       - 34: verifyElementPropertyValue(response, "data[5].first_name", "Rachel")
+2025-06-19 20:26:03.331 DEBUG testcase.Get Users                       - 35: verifyElementPropertyValue(response, "data[5].last_name", "Howell")
+2025-06-19 20:26:03.350 DEBUG testcase.Get Users                       - 36: verifyElementPropertyValue(response, "data[5].avatar", "https://reqres.in/img/faces/12-image.jpg")
+2025-06-19 20:26:03.363 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Get Users
+2025-06-19 20:26:03.406 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-06-19 20:26:03.406 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/API Users
+2025-06-19 20:26:03.406 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

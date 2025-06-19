@@ -1,0 +1,84 @@
+2025-06-19 20:21:10.941 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/API Reqres
+2025-06-19 20:21:11.014 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Ismi Rizki Sopiyanti
+2025-06-19 20:21:11.014 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = api-ismi-afteroffice-katalon
+2025-06-19 20:21:11.015 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = mac - localhost
+2025-06-19 20:21:11.015 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2025-06-19 20:21:11.015 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 127.0.0.1
+2025-06-19 20:21:11.016 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.0.0
+2025-06-19 20:21:11.269 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-19 20:21:11.269 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Register Success
+2025-06-19 20:21:11.564 DEBUG testcase.Register Success                - 1: response = sendRequest(findTestObject("POST_Register_Success"))
+2025-06-19 20:21:13.191 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/mac/git/api-ismi-afteroffice-katalon/Reports/20250619_202106/API Reqres/20250619_202106/requests/main/POST_Regi...Success_0.har
+2025-06-19 20:21:13.242 DEBUG testcase.Register Success                - 2: verifyResponseStatusCode(response, 200)
+2025-06-19 20:21:13.255 DEBUG testcase.Register Success                - 3: verifyElementPropertyValue(response, "token", "QpwL5tke4Pnpja7X4")
+2025-06-19 20:21:13.298 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Register Success
+2025-06-19 20:21:13.305 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-19 20:21:13.305 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Get Users
+2025-06-19 20:21:13.364 DEBUG testcase.Get Users                       - 1: response = sendRequest(findTestObject("GET_Users"))
+2025-06-19 20:21:13.506 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/mac/git/api-ismi-afteroffice-katalon/Reports/20250619_202106/API Reqres/20250619_202106/requests/main/GET_Users_1.har
+2025-06-19 20:21:13.509 DEBUG testcase.Get Users                       - 2: verifyResponseStatusCode(response, 200)
+2025-06-19 20:21:13.512 DEBUG testcase.Get Users                       - 3: verifyElementPropertyValue(response, "page", 2)
+2025-06-19 20:21:13.534 DEBUG testcase.Get Users                       - 4: verifyElementPropertyValue(response, "per_page", 6)
+2025-06-19 20:21:13.548 DEBUG testcase.Get Users                       - 5: verifyElementPropertyValue(response, "total", 12)
+2025-06-19 20:21:13.562 DEBUG testcase.Get Users                       - 6: verifyElementPropertyValue(response, "total_pages", 2)
+2025-06-19 20:21:13.577 DEBUG testcase.Get Users                       - 7: verifyElementPropertyValue(response, "data[0].id", 7)
+2025-06-19 20:21:13.594 DEBUG testcase.Get Users                       - 8: verifyElementPropertyValue(response, "data[0].email", "michael.lawson@reqres.in")
+2025-06-19 20:21:13.607 DEBUG testcase.Get Users                       - 9: verifyElementPropertyValue(response, "data[0].first_name", "Michael")
+2025-06-19 20:21:13.621 DEBUG testcase.Get Users                       - 10: verifyElementPropertyValue(response, "data[0].last_name", "Lawson")
+2025-06-19 20:21:13.634 DEBUG testcase.Get Users                       - 11: verifyElementPropertyValue(response, "data[0].avatar", "https://reqres.in/img/faces/7-image.jpg")
+2025-06-19 20:21:13.648 DEBUG testcase.Get Users                       - 12: verifyElementPropertyValue(response, "data[1].id", 8)
+2025-06-19 20:21:13.662 DEBUG testcase.Get Users                       - 13: verifyElementPropertyValue(response, "data[1].email", "lindsay.ferguson@reqres.in")
+2025-06-19 20:21:13.674 DEBUG testcase.Get Users                       - 14: verifyElementPropertyValue(response, "data[1].first_name", "Lindsay")
+2025-06-19 20:21:13.687 DEBUG testcase.Get Users                       - 15: verifyElementPropertyValue(response, "data[1].last_name", "Ferguson")
+2025-06-19 20:21:13.699 DEBUG testcase.Get Users                       - 16: verifyElementPropertyValue(response, "data[1].avatar", "https://reqres.in/img/faces/8-image.jpg")
+2025-06-19 20:21:13.711 DEBUG testcase.Get Users                       - 17: verifyElementPropertyValue(response, "data[2].id", 9)
+2025-06-19 20:21:13.726 DEBUG testcase.Get Users                       - 18: verifyElementPropertyValue(response, "data[2].email", "tobias.funke@reqres.in")
+2025-06-19 20:21:13.745 DEBUG testcase.Get Users                       - 19: verifyElementPropertyValue(response, "data[2].first_name", "Tobias")
+2025-06-19 20:21:13.759 DEBUG testcase.Get Users                       - 20: verifyElementPropertyValue(response, "data[2].last_name", "Funke")
+2025-06-19 20:21:13.772 DEBUG testcase.Get Users                       - 21: verifyElementPropertyValue(response, "data[2].avatar", "https://reqres.in/img/faces/9-image.jpg")
+2025-06-19 20:21:13.785 DEBUG testcase.Get Users                       - 22: verifyElementPropertyValue(response, "data[3].id", 10)
+2025-06-19 20:21:13.798 DEBUG testcase.Get Users                       - 23: verifyElementPropertyValue(response, "data[3].email", "byron.fields@reqres.in")
+2025-06-19 20:21:13.810 DEBUG testcase.Get Users                       - 24: verifyElementPropertyValue(response, "data[3].first_name", "Byron")
+2025-06-19 20:21:13.822 DEBUG testcase.Get Users                       - 25: verifyElementPropertyValue(response, "data[3].last_name", "Fields")
+2025-06-19 20:21:13.835 DEBUG testcase.Get Users                       - 26: verifyElementPropertyValue(response, "data[3].avatar", "https://reqres.in/img/faces/10-image.jpg")
+2025-06-19 20:21:13.857 DEBUG testcase.Get Users                       - 27: verifyElementPropertyValue(response, "data[4].id", 11)
+2025-06-19 20:21:13.870 DEBUG testcase.Get Users                       - 28: verifyElementPropertyValue(response, "data[4].email", "george.edwards@reqres.in")
+2025-06-19 20:21:13.881 DEBUG testcase.Get Users                       - 29: verifyElementPropertyValue(response, "data[4].first_name", "George")
+2025-06-19 20:21:13.893 DEBUG testcase.Get Users                       - 30: verifyElementPropertyValue(response, "data[4].last_name", "Edwards")
+2025-06-19 20:21:13.904 DEBUG testcase.Get Users                       - 31: verifyElementPropertyValue(response, "data[4].avatar", "https://reqres.in/img/faces/11-image.jpg")
+2025-06-19 20:21:13.916 DEBUG testcase.Get Users                       - 32: verifyElementPropertyValue(response, "data[5].id", 12)
+2025-06-19 20:21:13.928 DEBUG testcase.Get Users                       - 33: verifyElementPropertyValue(response, "data[5].email", "rachel.howell@reqres.in")
+2025-06-19 20:21:13.939 DEBUG testcase.Get Users                       - 34: verifyElementPropertyValue(response, "data[5].first_name", "Rachel")
+2025-06-19 20:21:13.950 DEBUG testcase.Get Users                       - 35: verifyElementPropertyValue(response, "data[5].last_name", "Howell")
+2025-06-19 20:21:13.961 DEBUG testcase.Get Users                       - 36: verifyElementPropertyValue(response, "data[5].avatar", "https://reqres.in/img/faces/12-image.jpg")
+2025-06-19 20:21:13.972 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Get Users
+2025-06-19 20:21:13.974 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-19 20:21:13.974 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Delete Users
+2025-06-19 20:21:14.001 DEBUG testcase.Delete Users                    - 1: response = sendRequest(findTestObject("DELETE_Users"))
+2025-06-19 20:21:14.646 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/mac/git/api-ismi-afteroffice-katalon/Reports/20250619_202106/API Reqres/20250619_202106/requests/main/DELETE_Users_2.har
+2025-06-19 20:21:14.648 DEBUG testcase.Delete Users                    - 2: verifyResponseStatusCode(response, 204)
+2025-06-19 20:21:14.651 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Delete Users
+2025-06-19 20:21:14.654 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-19 20:21:14.654 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login Failed
+2025-06-19 20:21:14.687 DEBUG testcase.Login Failed                    - 1: response = sendRequest(findTestObject("POST_Login_Failed"))
+2025-06-19 20:21:15.443 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/mac/git/api-ismi-afteroffice-katalon/Reports/20250619_202106/API Reqres/20250619_202106/requests/main/POST_Login_Failed_3.har
+2025-06-19 20:21:15.447 DEBUG testcase.Login Failed                    - 2: verifyResponseStatusCode(response, 400)
+2025-06-19 20:21:15.450 DEBUG testcase.Login Failed                    - 3: verifyElementPropertyValue(response, "error", "Missing password")
+2025-06-19 20:21:15.468 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login Failed
+2025-06-19 20:21:15.471 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-19 20:21:15.471 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Register Failed
+2025-06-19 20:21:15.496 DEBUG testcase.Register Failed                 - 1: response = sendRequest(findTestObject("POST_Register_Failed"))
+2025-06-19 20:21:16.168 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/mac/git/api-ismi-afteroffice-katalon/Reports/20250619_202106/API Reqres/20250619_202106/requests/main/POST_Regi..._Failed_4.har
+2025-06-19 20:21:16.173 DEBUG testcase.Register Failed                 - 2: verifyResponseStatusCode(response, 400)
+2025-06-19 20:21:16.177 DEBUG testcase.Register Failed                 - 3: verifyElementPropertyValue(response, "error", "Missing password")
+2025-06-19 20:21:16.194 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Register Failed
+2025-06-19 20:21:16.197 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-19 20:21:16.197 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login Success
+2025-06-19 20:21:16.220 DEBUG testcase.Login Success                   - 1: response = sendRequest(findTestObject("POST_Login_Success"))
+2025-06-19 20:21:16.914 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/mac/git/api-ismi-afteroffice-katalon/Reports/20250619_202106/API Reqres/20250619_202106/requests/main/POST_Login_Success_5.har
+2025-06-19 20:21:16.920 DEBUG testcase.Login Success                   - 2: verifyResponseStatusCode(response, 200)
+2025-06-19 20:21:16.923 DEBUG testcase.Login Success                   - 3: verifyElementPropertyValue(response, "token", "QpwL5tke4Pnpja7X4")
+2025-06-19 20:21:16.940 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login Success
+2025-06-19 20:21:16.970 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-06-19 20:21:16.970 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/API Reqres
+2025-06-19 20:21:16.970 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

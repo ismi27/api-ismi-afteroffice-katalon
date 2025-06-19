@@ -1,0 +1,24 @@
+2025-06-19 20:25:47.222 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/API Login
+2025-06-19 20:25:47.288 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Ismi Rizki Sopiyanti
+2025-06-19 20:25:47.289 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = api-ismi-afteroffice-katalon
+2025-06-19 20:25:47.289 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = mac - localhost
+2025-06-19 20:25:47.290 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2025-06-19 20:25:47.290 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 127.0.0.1
+2025-06-19 20:25:47.290 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.0.0
+2025-06-19 20:25:47.529 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-19 20:25:47.529 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login Failed
+2025-06-19 20:25:47.792 DEBUG testcase.Login Failed                    - 1: response = sendRequest(findTestObject("POST_Login_Failed"))
+2025-06-19 20:25:49.710 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/mac/git/api-ismi-afteroffice-katalon/Reports/20250619_202537/API Login/20250619_202538/requests/main/POST_Login_Failed_0.har
+2025-06-19 20:25:49.774 DEBUG testcase.Login Failed                    - 2: verifyResponseStatusCode(response, 400)
+2025-06-19 20:25:49.786 DEBUG testcase.Login Failed                    - 3: verifyElementPropertyValue(response, "error", "Missing password")
+2025-06-19 20:25:49.822 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login Failed
+2025-06-19 20:25:49.825 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-19 20:25:49.825 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login Success
+2025-06-19 20:25:49.853 DEBUG testcase.Login Success                   - 1: response = sendRequest(findTestObject("POST_Login_Success"))
+2025-06-19 20:25:50.285 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/mac/git/api-ismi-afteroffice-katalon/Reports/20250619_202537/API Login/20250619_202538/requests/main/POST_Login_Success_1.har
+2025-06-19 20:25:50.290 DEBUG testcase.Login Success                   - 2: verifyResponseStatusCode(response, 200)
+2025-06-19 20:25:50.293 DEBUG testcase.Login Success                   - 3: verifyElementPropertyValue(response, "token", "QpwL5tke4Pnpja7X4")
+2025-06-19 20:25:50.308 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login Success
+2025-06-19 20:25:50.336 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-06-19 20:25:50.336 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/API Login
+2025-06-19 20:25:50.336 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

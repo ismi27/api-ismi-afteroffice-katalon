@@ -1,0 +1,24 @@
+2025-06-19 20:25:54.320 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/API Register
+2025-06-19 20:25:54.399 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Ismi Rizki Sopiyanti
+2025-06-19 20:25:54.400 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = api-ismi-afteroffice-katalon
+2025-06-19 20:25:54.401 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = mac - localhost
+2025-06-19 20:25:54.401 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2025-06-19 20:25:54.401 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 127.0.0.1
+2025-06-19 20:25:54.402 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.0.0
+2025-06-19 20:25:54.648 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-19 20:25:54.648 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Register Failed
+2025-06-19 20:25:54.938 DEBUG testcase.Register Failed                 - 1: response = sendRequest(findTestObject("POST_Register_Failed"))
+2025-06-19 20:25:56.225 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/mac/git/api-ismi-afteroffice-katalon/Reports/20250619_202537/API Register/20250619_202540/requests/main/POST_Regi..._Failed_0.har
+2025-06-19 20:25:56.269 DEBUG testcase.Register Failed                 - 2: verifyResponseStatusCode(response, 400)
+2025-06-19 20:25:56.280 DEBUG testcase.Register Failed                 - 3: verifyElementPropertyValue(response, "error", "Missing password")
+2025-06-19 20:25:56.313 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Register Failed
+2025-06-19 20:25:56.316 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-19 20:25:56.316 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Register Success
+2025-06-19 20:25:56.342 DEBUG testcase.Register Success                - 1: response = sendRequest(findTestObject("POST_Register_Success"))
+2025-06-19 20:25:56.898 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/mac/git/api-ismi-afteroffice-katalon/Reports/20250619_202537/API Register/20250619_202540/requests/main/POST_Regi...Success_1.har
+2025-06-19 20:25:56.901 DEBUG testcase.Register Success                - 2: verifyResponseStatusCode(response, 200)
+2025-06-19 20:25:56.904 DEBUG testcase.Register Success                - 3: verifyElementPropertyValue(response, "token", "QpwL5tke4Pnpja7X4")
+2025-06-19 20:25:56.918 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Register Success
+2025-06-19 20:25:56.946 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-06-19 20:25:56.946 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/API Register
+2025-06-19 20:25:56.946 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

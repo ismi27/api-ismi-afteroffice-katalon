@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="API Login" time="3.031" tests="2" failures="0" errors="0">
+   <testsuite name="API Login" tests="2" failures="0" errors="0" time="3.031" skipped="0" timestamp="19-06-2025T20:25:47" hostname="mac - localhost" id="Test Suites/API Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/mac/git/api-ismi-afteroffice-katalon/Reports/20250619_202537/API Login/20250619_202538"/>
+         <property name="logFiles" value="/Users/mac/git/api-ismi-afteroffice-katalon/Reports/20250619_202537/API Login/20250619_202538/execution0.log, /Users/mac/git/api-ismi-afteroffice-katalon/Reports/20250619_202537/API Login/20250619_202538/console0.log"/>
+         <property name="attachments" value=""/>
+         <property name="userFullName" value="Ismi Rizki Sopiyanti"/>
+         <property name="hostName" value="mac - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="projectName" value="api-ismi-afteroffice-katalon"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.2.0.0"/>
+      </properties>
+      <testcase name="Test Cases/Login Failed" time="2.293" classname="Test Cases/Login Failed" status="PASSED">
+         <system-out><![CDATA[19-06-2025T20:25:47 - [TEST_CASE][PASSED] - Test Cases/Login Failed: Test Cases/Login Failed
+
+19-06-2025T20:25:47 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("POST_Login_Failed")): Send request successfully
+
+19-06-2025T20:25:49 - [MESSAGE][INFO] - HAR: /Users/mac/git/api-ismi-afteroffice-katalon/Reports/20250619_202537/API Login/20250619_202538/requests/main/POST_Login_Failed_0.har
+
+19-06-2025T20:25:49 - [MESSAGE][PASSED] - Send request successfully
+
+19-06-2025T20:25:49 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 400): Verify response status code successfully
+
+19-06-2025T20:25:49 - [MESSAGE][PASSED] - Verify response status code successfully
+
+19-06-2025T20:25:49 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "error", "Missing password"): Verify element property value successfully
+
+19-06-2025T20:25:49 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Success" time="0.482" classname="Test Cases/Login Success" status="PASSED">
+         <system-out><![CDATA[19-06-2025T20:25:49 - [TEST_CASE][PASSED] - Test Cases/Login Success: Test Cases/Login Success
+
+19-06-2025T20:25:49 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("POST_Login_Success")): Send request successfully
+
+19-06-2025T20:25:50 - [MESSAGE][INFO] - HAR: /Users/mac/git/api-ismi-afteroffice-katalon/Reports/20250619_202537/API Login/20250619_202538/requests/main/POST_Login_Success_1.har
+
+19-06-2025T20:25:50 - [MESSAGE][PASSED] - Send request successfully
+
+19-06-2025T20:25:50 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+19-06-2025T20:25:50 - [MESSAGE][PASSED] - Verify response status code successfully
+
+19-06-2025T20:25:50 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "token", "QpwL5tke4Pnpja7X4"): Verify element property value successfully
+
+19-06-2025T20:25:50 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-06-2025T20:25:47 - [TEST_SUITE][PASSED] - API Login: Test Cases/Login Success]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
